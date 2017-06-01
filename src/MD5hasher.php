@@ -12,7 +12,7 @@ class MD5hasher{
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';
         return hash('md5',$value.$salt)===$hashValue;
-        echo 1;
+        echo 11;
     }
 
 
