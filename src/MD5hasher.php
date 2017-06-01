@@ -11,7 +11,7 @@ class MD5Hasher{
     public function check($value,$hashValue,array $options =[])
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';
-        echo 11;
+        echo 1111;
         return hash('md5',$value.$salt)===$hashValue;
     }
 
