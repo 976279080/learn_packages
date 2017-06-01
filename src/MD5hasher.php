@@ -1,7 +1,7 @@
 <?php
 
 namespace Laravist\Hasher;
-class MD5hasher{
+class MD5Hasher{
     public function make($value,array $options=[])
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';

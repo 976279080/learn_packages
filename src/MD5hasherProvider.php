@@ -3,9 +3,8 @@
 namespace Laravist\Hasher;
 
 use Illuminate\Support\ServiceProvider;
-use Laravist\Hasher\MD5hasher;
 
-class MD5hasherProvider extends ServiceProvider
+class MD5HasherProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -25,7 +24,7 @@ class MD5hasherProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('md5hash',function(){
-            return new MD5hasher();
+            return new MD5Hasher();
         });
     }
 }
