@@ -1,0 +1,17 @@
+{
+    "name": "xhl/hasher",
+    "authors": [
+        {
+            "name": "cdgm",
+            "email": "976279080@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravist\\Hasher\\" : "src/"
+        }
+    }
+}
