@@ -24,7 +24,7 @@ class MD5HasherTest extends TestCase
 
     public function testMD5HasherMakeWithouSalt()
     {
-        $this->assertEquals(md5('passwordxhl'),$this->hasher->make('password',['salt'=>'xhl']));
+        $this->assertEquals(md5('passwordxhl1'),$this->hasher->make('password',['salt'=>'xhl']));
     }
     
     
